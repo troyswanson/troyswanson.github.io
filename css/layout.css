@@ -1,0 +1,32 @@
+body {
+	font-family: "adelle-sans", sans-serif;
+	font-weight: 100;
+	font-size: 14px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 100;
+}
+
+/* nav */
+nav {
+	padding: 2em;
+}
+nav header h1 {
+	margin: 0;
+}
+nav header h2 {
+	margin: 0;
+	color: rgba(0,0,0,0.5);
+}
+nav ul {
+	padding: 0;
+}
+
+/* article */
+article {
+	padding: 1.5em 2em;
+}
+article h1 {
+	font-size: 4em;
+	margin-top: 0;
+}
