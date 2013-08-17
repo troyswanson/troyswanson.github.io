@@ -5,6 +5,8 @@ title: Stardates
 
 ---
 
+# Stardates
+
 Over the past few years, I've been re-watching every episode of Star Trek again. Almost all of it is brand new content for me, though. When The Next Generation first aired, I was only [13 months](http://www.wolframalpha.com/input/?i=aug+4+1986+-+premiere+of+star+trek+the+next+generation) old. Even when I was a kid, I remember being intrigued by the stardate system used in the show. So, being the curious guy that I am, I tried to decipher it so I could better understand the references of time used in the show. Surprisingly, I wasn't able to find a lot of definitive information around how the stardate system works.
 
 ## History of Stardates
@@ -14,117 +16,6 @@ The method for calculating stardates has changed three times over the course of 
 In The Next Generation, a new stardate system was created which was significantly more consistent. The method for calculation used the first digit as the century marker ("4," since it takes place in the 24th century), the second digit as the current season of the series ("1"), and the final 3 digits as the current progression through the year, assuming there are 1000 stardate units per year. For instance, the stardate for the first episode of TNG was 41153.7.
 
 Unfortunately, the original idea for this system broke down when stardate 49999 was reached, since the century digit should stay at "4," while the season digit should increment to "10." To accommodate for this, the rules for generating stardates were modified to have the first two digits become a two digit number that would increase every year (i.e.: from "49" to "50").
-
-Here's a basic table that shows the stardates and years the various spin offs take place:
-
-<table>
-    <thead>
-        <tr>
-            <th>Stardate (Year)</th>
-            <th>TNG</th>
-            <th>DS9</th>
-            <th>VOY</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <th>41xxx (2364)</th>
-            <td>X</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>42xxx (2365)</th>
-            <td>X</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>43xxx (2366)</th>
-            <td>X</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>44xxx (2367)</th>
-            <td>X</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>45xxx (2368)</th>
-            <td>X</td>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>46xxx (2369)</th>
-            <td>X</td>
-            <td>X</td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>47xxx (2370)</th>
-            <td>X</td>
-            <td>X</td>
-            <td></td>
-        </tr>
-        <tr>
-            <th>48xxx (2371)</th>
-            <td>Generations</td>
-            <td>X</td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <th>49xxx (2372)</th>
-            <td></td>
-            <td>X</td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <th>50xxx (2373)</th>
-            <td>First Contact</td>
-            <td>X</td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <th>51xxx (2374)</th>
-            <td></td>
-            <td>X</td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <th>52xxx (2375)</th>
-            <td>Insurrection</td>
-            <td>X</td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <th>53xxx (2376)</th>
-            <td></td>
-            <td></td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <th>54xxx (2377)</th>
-            <td></td>
-            <td></td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <th>55xxx (2378)</th>
-            <td></td>
-            <td></td>
-            <td>X</td>
-        </tr>
-        <tr>
-            <th>56xxx (2379)</th>
-            <td>Nemesis</td>
-            <td></td>
-            <td></td>
-        </tr>
-    </tbody>
-</table>
 
 ## Proving it
 
