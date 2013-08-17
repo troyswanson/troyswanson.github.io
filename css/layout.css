@@ -16,7 +16,7 @@ nav header h1 {
 }
 nav header h2 {
 	margin: 0;
-	color: rgba(0,0,0,0.5);
+	opacity: 0.5;
 }
 nav ul {
 	padding: 0;
@@ -29,4 +29,5 @@ article {
 article h1 {
 	font-size: 4em;
 	margin-top: 0;
+	color: #A1BBCC;
 }
