@@ -6,10 +6,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 100;
 }
+a {
+	color: #A1B373;
+}
+a:hover {
+	color: #B6CC79;
+}
 
 /* nav */
 nav {
 	padding: 2em;
+	position: fixed;
 }
 nav header h1 {
 	margin: 0;
@@ -24,10 +31,15 @@ nav ul {
 
 /* article */
 article {
-	padding: 1.5em 2em;
+	padding: 1.5em 0;
+	margin: 0 auto;
+	width: 70%;
 }
 article h1 {
 	font-size: 4em;
 	margin-top: 0;
-	color: #A1BBCC;
+	color: #6A85B3;
+}
+article h2 {
+	color: #94ADD6;
 }
