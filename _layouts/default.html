@@ -18,6 +18,11 @@
 					<h1>Hi, I’m Troy.</h1>
 					<h2>I build websites.</h2>
 				</header>
+				<ul>
+					{% for post in site.posts %}
+					<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+					{% endfor %}
+				</ul>
 				<p>Last built on {{ site.time | date: "%b %d, %Y" }}</p>
 			</nav>
 		</div>
