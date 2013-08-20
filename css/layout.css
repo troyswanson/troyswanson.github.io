@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 a {
 	color: #A1B373;
-	transition: all 0.1s;
+	transition: color 0.1s;
 }
 a:hover {
 	color: #B6CC79;
@@ -63,21 +63,30 @@ article h1 {
 	margin-left: -0.05em;
 	color: #6A85B3;
 }
-article h2 {
-	color: #94ADD6;
-}
 article time {
 	position: absolute;
 	margin-top: -3em;
 	opacity: 0.3;
 }
+article h2 {
+	color: #94ADD6;
+}
+article p {
+	line-height: 1.7em;
+}
 
 /* RESPONSIVE stack */
 @media (max-width: 767px) {
+	nav {
+		padding: 1em;
+		border-bottom: 1px solid #B6CC79;
+	}
 	nav header h1 {
+		font-size: 1.7em;
 		display: inline-block;
 	}
 	nav header h2 {
+		font-size: 1.3em;
 		display: inline-block;
 		margin-left: 0.25em;
 	}
@@ -87,5 +96,8 @@ article time {
 	}
 	article {
 		padding: 1em;
+	}
+	article p {
+		font-size: 1.2em;
 	}
 }
