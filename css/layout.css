@@ -73,7 +73,7 @@ article p {
 @media (max-width: 767px) {
 	nav {
 		padding: 1em;
-		width: 100%;
+		width: auto;
 		border-bottom: 0.1em solid #B6CC79;
 	}
 	nav header h1 {
