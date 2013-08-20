@@ -1,6 +1,9 @@
 ---
+
 layout: default
+
 title: I’m Troy
+
 ---
 
 # Article Title
