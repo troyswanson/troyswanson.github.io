@@ -57,10 +57,14 @@ article h1 {
 	margin-left: -0.05em;
 	color: #6A85B3;
 }
-article time {
+article p.byline {
 	position: absolute;
 	margin-top: -3em;
-	opacity: 0.3;
+	opacity: 0.4;
+	font-size: 0.9em;
+}
+article p.byline a {
+	color: #000;
 }
 article h2 {
 	color: #94ADD6;
