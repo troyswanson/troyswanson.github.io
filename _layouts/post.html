@@ -7,10 +7,11 @@ layout: default
 <article itemscope itemtype="http://schema.org/BlogPosting">
 	<h1 itemprop="name">{{ page.title }}</h1>
 	<p class="byline">
-		<span class="author">By <a href="https://plus.google.com/{{ page.google_plus_id }}?rel=author">{{ page.author }}</a></span>
+		<span class="author">By <a href="https://plus.google.com/112834200360888970972" rel="author">Troy Swanson</a></span>
 		<span class="publish-date">on <time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></span>
 	</p>
 	<div itemprop="articleBody">
 		{{ content }}
 	</div>
+	<meta itemprop="url" content="{{ site.url }}{{ page.url }}" />
 </article>
