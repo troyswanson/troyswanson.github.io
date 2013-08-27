@@ -1,13 +1,11 @@
 ---
 
-layout: default
+layout: home
 
-title: I’m Troy
+title: Hello
 
 ---
 
-# Article Title
+# Hi, I'm Troy Swanson
 
-This is some test content.
-
-Here's some more test content.
+I'm a *web developer* at Rackspace.
