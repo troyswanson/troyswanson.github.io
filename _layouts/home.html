@@ -2,20 +2,17 @@
 <html>
 {% include header.html %}
 <body id="home">
-	<div class="pure-g-r">
-		<section id="intro" class="pure-u-1">
-			{{ content }}
-		</section>
-		<section id="posts" class="pure-u-1">
-			<ul>
-				{% for post in site.posts %}
-				<li>
-					<a href="{{ post.url }}">{{ post.title }}</a>
-					<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
-				</li>
-				{% endfor %}
-			</ul>
-		</section>
-	</div>
+	<section id="intro">
+		{{ content }}
+	</section>
+	<section id="posts">
+		<h2>Latest Posts</h2>
+		<dl>
+			{% for post in site.posts %}
+			<dt><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></dt>
+			<dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
+			{% endfor %}
+		</dl>
+	</section>
 </body>
 </html>

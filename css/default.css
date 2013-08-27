@@ -33,36 +33,46 @@ a:hover {
 }
 #home h2 {
 	opacity: 0.5;
-	font-size: 1.75em;
 }
 #home p {
 	font-size: 2em;
 	opacity: 0.75;
 	margin: 0;
 }
-#home ul {
+#home dl {
 	margin: 0;
 	padding: 0;
-	list-style: none;
-}
-#home ul li {
 	font-size: 1.25em;
+}
+#home dl dt {
+	float: left;
+	clear: left;
+}
+#home dl dd {
+	margin-left: 90px;
+	margin-bottom: 1em;
 }
 #home em {
 	font-style: normal;
 	font-weight: 400;
 }
 #home time {
-	font-size: 0.75em;
+	font-size: 0.8em;
 	opacity: 0.5;
-	transition: opacity 0.5s;
 }
+/* responsive for #home */
 @media (max-width: 550px) {
 	#home #intro {
 		border-bottom: 1px solid #B6CC79;
 		padding-bottom: 4em;
 		margin-bottom: 2.5em;
 		font-size: 0.65em;
+	}
+	#home dl {
+		font-size: 1em;
+	}
+	#home dl dd {
+		margin-left: 70px;
 	}
 }
 
@@ -86,8 +96,11 @@ header nav ul {
 	padding: 0;
 }
 header nav ul li {
-	margin: 0.25em 0;
+	margin-bottom: 0.5em;
 	font-size: 1.25em;
+}
+header nav ul li:last-child {
+	margin-bottom: 0;
 }
 
 /* article */
@@ -116,7 +129,7 @@ article p {
 	line-height: 1.7em;
 }
 
-/* RESPONSIVE stack */
+/* responsive for default */
 @media (max-width: 767px) {
 	header {
 		padding: 1em;
@@ -133,8 +146,16 @@ article p {
 		display: inline-block;
 	}
 	header nav {
-		clear: left;
-		display: none;
+		margin: 0.75em 0 0;
+	}
+	header nav ul {
+		margin: 0;
+	}
+	header nav ul li {
+		margin: 0;
+		float: left;
+		font-size: 0.9em;
+		margin-right: 1em;
 	}
 	article {
 		padding: 1em;

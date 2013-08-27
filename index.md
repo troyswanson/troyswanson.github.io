@@ -2,7 +2,7 @@
 
 layout: home
 
-title: Hello
+title: Home
 
 ---
 
