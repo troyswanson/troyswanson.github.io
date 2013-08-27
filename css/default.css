@@ -16,29 +16,29 @@ a:hover {
 }
 
 /* #home */
-#home {
-	padding: 4em 0;
+#home section {
+	margin: 4em 0;
 }
 #home #intro {
 	text-align: center;
-	padding-bottom: 5em;
 }
 #home #posts {
-	padding: 0 15%;
+	width: 80%;
+	margin: auto;
 }
 #home h1 {
 	font-size: 3em;
 	color: #6A85B3;
 	margin: 0;
 }
+#home h2 {
+	opacity: 0.5;
+	font-size: 1.75em;
+}
 #home p {
 	font-size: 2em;
 	opacity: 0.75;
 	margin: 0;
-}
-#home h2 {
-	opacity: 0.5;
-	font-size: 1.75em;
 }
 #home ul {
 	margin: 0;
@@ -59,13 +59,10 @@ a:hover {
 }
 @media (max-width: 550px) {
 	#home #intro {
-		font-size: 0.65em;
 		border-bottom: 1px solid #B6CC79;
-		margin-bottom: 3em;
-	}
-	#home #posts {
-		padding: 0 2em;
-		width: auto;
+		padding-bottom: 4em;
+		margin-bottom: 2.5em;
+		font-size: 0.75em;
 	}
 }
 
