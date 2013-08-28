@@ -5,6 +5,7 @@
 		html body {
 			opacity: 0;
 			transition: opacity 0.2s;
+			-webkit-transition: opacity 0.2s;
 		}
 		html.wf-active body {
 			opacity: 1;
@@ -21,8 +22,9 @@
 		h2 { color: #94ADD6; }
 		a {
 			color: #A1B373;
-			transition: color 0.1s;
 			text-decoration: none;
+			transition: color 0.1s;
+			-webkit-transition: color 0.1s;
 		}
 		a:hover {
 			color: #B6CC79;
