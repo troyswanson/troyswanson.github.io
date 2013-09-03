@@ -1,0 +1,14 @@
+before_install:
+  - cd ~ #switch to home directory
+install:
+  - git clone git://github.com/n1k0/casperjs.git #grab the latest casper
+  - sudo ln -s $PWD/casperjs/bin/casperjs /usr/local/bin/casperjs #symlink casper
+  - gem install rack #install rack gem
+  - gem install jekyll #install jekyll gem
+before_script:
+  - cd $TRAVIS_BUILD_DIR #switch back to build directory
+  - jekyll build #build site using jekyll
+  - rackup -D #spin up a web server
+  - sleep 3 #give web server a few seconds to build
+script:
+  - casperjs test _tests #run casper tests
