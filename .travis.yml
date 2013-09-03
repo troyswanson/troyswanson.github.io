@@ -10,4 +10,4 @@ before_script:
   - jekyll build
   - rackup -D
 script:
-  - casperjs _tests
+  - casperjs test _tests
