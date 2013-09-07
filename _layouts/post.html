@@ -1,16 +1,14 @@
 <!DOCTYPE HTML>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+<html prefix="og: http://ogp.me/ns#">
 <head>
   <title>Troy Swanson | {{ page.title }}</title>
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="article">
+  {% if page.hero %}
+  <meta property="og:image" content="{{ site.url }}/img/{{ page.hero }}">
+  {% endif %}
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:description" content="{{ page.excerpt }}">
-  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-  <meta property="profile:first_name" content="Troy">
-  <meta property="profile:last_name" content="Swanson">
-  <meta property="profile:gender" content="male">
-  <meta property="article:section" content="Technology">
+  <link rel="author" href="https://plus.google.com/112834200360888970972">
   {% include header-stuff.html %}
   <style type="text/css">
     /* header */
@@ -54,6 +52,7 @@
     }
     article p {
       line-height: 1.7em;
+      font-size: 1.2em;
     }
     
     article ul.meta {
@@ -67,7 +66,6 @@
       float: left;
     }
     article ul.meta li.pubdate { opacity: 0.5; }
-    article ul.meta li.author { display: none; }
     
     article .body { clear: left; }
     
@@ -101,9 +99,6 @@
       article {
         padding: 1em;
       }
-      article p {
-        font-size: 1.2em;
-      }
     }
   </style>
 </head>
@@ -126,9 +121,9 @@
         <h1 itemprop="name">{{ page.title }}</h1>
         <ul class="meta">
           <li class="pubdate"><time itemprop="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></li>
-          <li class="author"><a href="https://plus.google.com/112834200360888970972" rel="author">Troy Swanson</a></li>
           <li class="permalink"><a itemprop="url" href="{{ site.url }}{{ page.url }}" title="Permalink">∞</a></li>
         </ul>
+        <div class="hero"><img src="/img/{{ page.hero }}"></div>
         <div class="body" itemprop="articleBody">
           {{ content }}
         </div>
