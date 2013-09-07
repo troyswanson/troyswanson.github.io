@@ -1,7 +1,10 @@
 <!DOCTYPE HTML>
-<html>
+<html prefix="og:http://ogp.me/ns#">
 <head>
-  <title>Hi, I’m Troy Swanson</title>
+  <title>{{ page.title }}</title>
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}">
   {% include header-stuff.html %}
   <style type="text/css">
     section {
