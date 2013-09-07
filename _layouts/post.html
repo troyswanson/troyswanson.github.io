@@ -1,15 +1,16 @@
 <!DOCTYPE HTML>
-<html prefix="og:http://ogp.me/ns#">
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
 <head>
   <title>Troy Swanson | {{ page.title }}</title>
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-  <meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}">
-  <meta property="og:article:author:first_name" content="Troy">
-  <meta property="og:article:author:last_name" content="Swanson">
-  <meta property="og:article:author:gender" content="male">
-  <meta property="og:article:section" content="Technology">
+  <meta property="og:description" content="{{ page.excerpt }}">
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  <meta property="profile:first_name" content="Troy">
+  <meta property="profile:last_name" content="Swanson">
+  <meta property="profile:gender" content="male">
+  <meta property="article:section" content="Technology">
   {% include header-stuff.html %}
   <style type="text/css">
     /* header */
