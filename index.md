@@ -2,7 +2,7 @@
 
 layout: home
 
-title: Home
+title: Hi, I'm Troy Swanson
 
 ---
 
