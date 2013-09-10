@@ -10,15 +10,23 @@
   <style type="text/css">
     section {
       margin: 4em 0;
+      transition: margin .5s, font-size .5s;
     }
     #portrait {
-      width: 32%;
       margin-left: auto;
       margin-right: auto;
       text-align: center;
     }
-    #portrait img {
-      max-width: 100%;
+    #portrait #me {
+      transition: height .5s, width .5s;
+      height: 168px;
+      width: 168px;
+      margin: auto;
+      border-radius: 50%;
+      background-image: url('/img/portrait.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 100% 100%;
     }
     #intro {
       text-align: center;
@@ -59,10 +67,20 @@
       font-size: 0.8em;
       opacity: 0.5;
     }
-    /* responsive for */
+    /* retina */
+    @media (-webkit-min-device-pixel-ratio: 2) {
+      #portrait #me {
+        background-image: url('/img/portrait@2x.png');
+      }
+    }
+    /* responsive */
     @media (max-width: 550px) {
       section {
         margin: 2em 0;
+      }
+      #portrait #me {
+        width: 120px;
+        height: 120px;
       }
       #intro {
         margin-bottom: 6em;
@@ -76,7 +94,7 @@
 </head>
 <body>
   <section id="portrait">
-    <img src="/img/portrait.png" alt="Troy Swanson">
+    <div id="me"></div>
   </section>
   <section id="intro">
     {{ content }}
