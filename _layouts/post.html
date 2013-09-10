@@ -131,9 +131,6 @@
           <li class="pubdate"><time property="datePublished" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date_to_string }}</time></li>
           <li class="permalink"><a property="url" href="{{ site.url }}{{ page.url }}" title="Permalink">∞</a></li>
         </ul>
-        {% if page.hero %}
-        <div class="hero"><img property="image" src="/img/{{ page.hero }}"></div>
-        {% endif %}
         <div class="body" property="articleBody">
           {{ content }}
         </div>
