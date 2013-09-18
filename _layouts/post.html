@@ -17,38 +17,8 @@
   {% endif %}
   <meta property="og:description" content="{{ site.excerpt }}">
   <meta property="og:site_name" content="Troy Swanson">
-  {% include header-stuff.html %}
+  {% include head.html %}
   <style type="text/css">
-    /* header */
-    header {
-      padding: 2.25em 0;
-      width: 80%;
-      margin: 0 auto;
-    }
-    header h1 {
-      margin: 0;
-      color: #000;
-    }
-    header h2 {
-      margin: 0;
-      opacity: 0.5;
-      color: #000;
-    }
-    header nav {
-      margin-top: 2em;
-    }
-    header nav ul {
-      padding: 0;
-      list-style: none;
-    }
-    header nav ul li {
-      margin-bottom: 0.5em;
-      font-size: 1.25em;
-    }
-    header nav ul li:last-child {
-      margin-bottom: 0;
-    }
-    
     /* article */
     article {
       padding: 1.5em 8em 4em 2em;
@@ -79,31 +49,6 @@
     
     /* responsive */
     @media (max-width: 767px) {
-      header {
-        padding: 1em;
-        width: auto;
-        border-bottom: 1px solid #B6CC79;
-      }
-      header h1 {
-        font-size: 1.7em;
-        display: inline-block;
-        margin-right: 0.25em;
-      }
-      header h2 {
-        font-size: 1.3em;
-        display: inline-block;
-      }
-      header nav {
-        margin: 0.75em 0 0;
-      }
-      header nav ul {
-        margin: 0;
-      }
-      header nav ul li {
-        margin: 0;
-        float: left;
-        font-size: 0.9em;
-      }
       article {
         padding: 1em;
       }
@@ -113,16 +58,7 @@
 <body>
   <div class="pure-g-r">
     <div class="pure-u-1-4">
-      <header>
-        <h1>Hi, I’m Troy.</h1>
-        <h2>I build websites.</h2>
-        <nav>
-          <ul>
-            <li><a href="/">← Home</a></li>
-          </ul>
-          <div style="clear:left"></div>
-        </nav>
-      </header>
+      {% include sidebar.html %}
     </div>
     <div class="pure-u-3-4">
       <article vocab="http://schema.org/" typeof="BlogPosting" resource="{{ page.url }}">
