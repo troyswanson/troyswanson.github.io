@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <!-- DEFAULT STYLES -->
   <style type="text/css">
+    /* sweeping generalizations */
     html body {
       opacity: 0;
       transition: opacity 0.2s;
@@ -31,6 +32,65 @@
     }
     a:hover {
       color: #B6CC79;
+    }
+    
+    /* header */
+    header {
+      padding: 2.25em 0;
+      width: 80%;
+      margin: 0 auto;
+    }
+    header h1 {
+      margin: 0;
+      color: #000;
+    }
+    header h2 {
+      margin: 0;
+      opacity: 0.5;
+      color: #000;
+    }
+    header nav {
+      margin-top: 2em;
+    }
+    header nav ul {
+      padding: 0;
+      list-style: none;
+    }
+    header nav ul li {
+      margin-bottom: 0.5em;
+      font-size: 1.25em;
+    }
+    header nav ul li:last-child {
+      margin-bottom: 0;
+    }
+    
+    /* responsive */
+    @media (max-width: 767px) {
+      header {
+        padding: 1em;
+        width: auto;
+        border-bottom: 1px solid #B6CC79;
+      }
+      header h1 {
+        font-size: 1.7em;
+        display: inline-block;
+        margin-right: 0.25em;
+      }
+      header h2 {
+        font-size: 1.3em;
+        display: inline-block;
+      }
+      header nav {
+        margin: 0.75em 0 0;
+      }
+      header nav ul {
+        margin: 0;
+      }
+      header nav ul li {
+        margin: 0;
+        float: left;
+        font-size: 0.9em;
+      }
     }
   </style>
   <!-- YUI's PURE CSS -->
