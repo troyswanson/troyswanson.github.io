@@ -6,10 +6,11 @@ before_install:
 install:
   - git clone git://github.com/n1k0/casperjs.git #grab the latest casper
   - sudo ln -s $PWD/casperjs/bin/casperjs /usr/local/bin/casperjs #symlink casper
+  - bundle install
 before_script:
   - cd $TRAVIS_BUILD_DIR #switch back to build directory
-  - bundle exec jekyll build #build site using jekyll
-  - bundle exec rackup -D #spin up a web server
+  - jekyll build #build site using jekyll
+  - rackup -D #spin up a web server
   - sleep 1 #give web server a second
 script:
   - casperjs test _tests #run casper tests
