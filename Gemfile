@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
-gem 'github-pages', '~> 1.2.1'
+gem 'github-pages', '~> 6'
 gem 'rack'
