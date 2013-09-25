@@ -1,14 +1,15 @@
+language: ruby
+rvm:
+  - 1.9.3 #use 1.9.3 (which is what GitHub Pages uses)
 before_install:
   - cd ~ #switch to home directory
 install:
   - git clone git://github.com/n1k0/casperjs.git #grab the latest casper
   - sudo ln -s $PWD/casperjs/bin/casperjs /usr/local/bin/casperjs #symlink casper
-  - gem install rack #install rack gem
-  - gem install jekyll #install jekyll gem
 before_script:
   - cd $TRAVIS_BUILD_DIR #switch back to build directory
-  - jekyll build #build site using jekyll
-  - rackup -D #spin up a web server
-  - sleep 3 #give web server a few seconds to build
+  - bundle exec jekyll build #build site using jekyll
+  - bundle exec rackup -D #spin up a web server
+  - sleep 1 #give web server a second
 script:
   - casperjs test _tests #run casper tests
