@@ -38,12 +38,10 @@ Empowering anyone and everyone in the organization to propose changes to somethi
 4. If the build passed and the changes look good, merge
 5. Deploy the changes!
 
-If this looks familiar, you may have been exposed to [the GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html) in the past. This process is exactly the same as that.
+If this looks familiar, you may have been exposed to the [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html) in the past. This process is exactly the same as that.
 
 ## Warning
 
 This doesn't mean you should accept everything that has been proposed. Pull requests will come in that don't solve anything, or they're formatted improperly. It's the job of the project maintainers to keep it clean and make sure everything is good to go before it's merged.
 
 Set up a CI system that crawls the site and runs tests for formatting and other functionally relevant things, such as broken links, images, and other stuff that might cause a site to behave improperly. Have a legitimate discussion about the proposed changes, and make sure they fall in line with the overall messaging of the brand. Make sure that it has passed all tests and it has been throughly reviewed before it is merged to `master`.
-
-*EDIT: Here's the [pull request](https://github.com/troyswanson/troyswanson.github.io/pull/20) for this post, in case you're interested. You can see by the commit history that the first commit in the request caused the build to fail. That's because I accidentally put the post in the wrong place. The second commit fixed it, though!*
