@@ -20,13 +20,13 @@ There are a few problems with it, though. In order for someone to propose a chan
 * An account in the Drupal system
 * Admin rights to the section they want to edit
 
-For most project managers, even giving access to the back-end user creation page is locked down. Accounts are manually created and admin rights are divvyed up for stakeholders and content reviewers.
+For most large scale sites, the back-end user creation page is locked down. Accounts are manually created and admin rights are divvied up for stakeholders and content reviewers. A regular person inside the company can't even see how the content is set up, let alone propose a change to it.
 
 ## Power to the people
 
-I believe that a support person who answers a phone call from customer who is confused about something on the site or a salesperson who has an idea on how to improve a page should have just as much power to propose a change to the content as a copy writer or a marketing manager. And it should be simple.
+I believe that a support person who answers a phone call from customer who is confused about something they read on the site or a salesperson who has an idea on how to improve some messaging should have just as much power to propose a change to the content as a copy writer or a marketing manager. And it should be simple.
 
-If the entire site - including and especially the content - lives in a single repository on GitHub, the process for anyone to make a change is ridiculously easy, and all they need is a GitHub account.
+If the entire site - including and especially the content - lives in a single repository on GitHub, the process for anyone within the company to make a change is ridiculously easy, and all they need is a GitHub account.
 
 Empowering anyone and everyone in the organization to propose changes to something as important as the public facing website displays a tremendous amount of transparency and openness. It also forces the project maintainers to keep everything as clean as possible to make it easier for people to make changes.
 
@@ -38,7 +38,7 @@ Empowering anyone and everyone in the organization to propose changes to somethi
 4. If the build passed and the changes look good, merge
 5. Deploy the changes!
 
-If this looks familiar, that might because you've seen out [the GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html) before. This process is basically just a specialized version of it.
+If this looks familiar, you may have been exposed to [the GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html) in the past. This process is exactly the same as that.
 
 ## Warning
 
