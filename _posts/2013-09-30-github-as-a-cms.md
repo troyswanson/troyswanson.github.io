@@ -12,7 +12,7 @@ This post was created and published entirely using GitHub. And it was easy. I'm 
 
 In a world where there are dozens and dozens (maybe even hundreds?) of content management systems, each somehow falling in between the range of stupidly simple and insanely complex, you need to evaluate your options carefully and determine which makes the most amount of sense for you and your project. During the research process, one of the most common selling points is the power and extensibility of the back-end admin interface.
 
-Drupal is pretty popular and provides a great deal of customization options for the admin interface. Take a look at the ultra-popular Drupal module, [Workbench](https://drupal.org/project/workbench). This module gives admins the ability to delegate authority over specific parts of the website to individuals, and provides a good review process before the content is made live.
+Drupal is pretty popular and provides a great deal of customization options for the admin interface. Drupal doesn't have editorial review features out of the box, though, so just about every site has the [Workbench](https://drupal.org/project/workbench) module installed. This module gives admins the ability to delegate authority over specific parts of the website to individuals, and provides a good review process before the content is made live.
 
 There are a few problems with it, though. In order for someone to propose a change, they need to have the following things:
 
