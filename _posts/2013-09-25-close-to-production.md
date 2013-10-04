@@ -26,7 +26,7 @@ Next, just run `bundle install` and all of the dependencies will magically insta
 
 One of my favorite tools that I am finding any excuse to play with is [Travis CI](http://travis-ci.org/). If you're not familiar with it, it's a continous integration service that integrates directly with GitHub. Any time a new commit is pushed to a repo that it is watching, a new worker instance is created and a configuration is run. You are able to specify commands in the configuration file and the worker process will just run them. And it's free.
 
-Next, drop some configuration stuff into a `.travis.yml` file:
+To get Travis started, drop some configuration stuff into a `.travis.yml` file:
 
 ```yaml
 language: ruby
@@ -35,7 +35,7 @@ rvm:
 install:
   - bundle install # install the dependencies defined in the Gemfile
 before_script:
-  - jekyll build --trace # build the site and start a webserver
+  - jekyll build --trace # build the site and give details about any errors
 ```
 
 This will tell Travis CI to set up the worker to use Ruby 1.9.3, install the stuff defined in the `Gemfile`, and eventually build, serve, and detach the web server process from the command line interface. If anything experienced problems during the build, that command would have exited with an error code and Travis would have registered the build a failure.
