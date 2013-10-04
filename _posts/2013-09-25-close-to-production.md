@@ -35,7 +35,7 @@ rvm:
 install:
   - bundle install # install the dependencies defined in the Gemfile
 before_script:
-  - jekyll serve --detach # build the site and start a webserver
+  - jekyll build --trace # build the site and start a webserver
 ```
 
 This will tell Travis CI to set up the worker to use Ruby 1.9.3, install the stuff defined in the `Gemfile`, and eventually build, serve, and detach the web server process from the command line interface. If anything experienced problems during the build, that command would have exited with an error code and Travis would have registered the build a failure.
