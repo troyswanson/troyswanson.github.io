@@ -3,5 +3,5 @@ rvm:
   - 1.9.3 #what GitHub Pages uses
 install:
   - bundle install #install gemfile stuff
-before_script:
+script:
   - jekyll build --trace #build site using jekyll
