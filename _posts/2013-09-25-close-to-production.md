@@ -34,7 +34,7 @@ rvm:
   - 1.9.3 # the github-pages gem requires 1.9.3
 install:
   - bundle install # install the dependencies defined in the Gemfile
-before_script:
+script:
   - jekyll build --trace # build the site and give details about any errors
 ```
 
