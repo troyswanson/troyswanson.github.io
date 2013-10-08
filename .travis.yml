@@ -9,6 +9,4 @@ install:
   - bundle install #install gemfile stuff
 before_script:
   - cd $TRAVIS_BUILD_DIR #switch back to build directory
-  - jekyll serve --detach #build site using jekyll
-script:
-  - casperjs test _tests #run casper tests
+  - jekyll build --trace #build site using jekyll
