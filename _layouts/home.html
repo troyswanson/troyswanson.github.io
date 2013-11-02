@@ -67,6 +67,43 @@
       font-size: 0.8em;
       opacity: 0.5;
     }
+
+    #info {
+      width: 200px;
+      margin: 0 auto;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;  
+      font-size: 2em;
+    }
+
+    #info #block {
+      margin-left: auto;
+      margin-right: auto;
+      display: inline-block;
+      width:50px;
+      padding-right: 10px;
+    }
+
+    #info #block a {
+      color: #E3EEC5;
+    }
+
+    #info #block a:hover {
+      color:#CCD7AE;
+      transition: color 0.25s ease-in;
+      -webkit-transition: color 0.25s ease-in;
+    }
+
+    @media (max-width: 320px){
+      #info {
+        font-size: 1.5em;
+      }
+      #info #block {
+        max-width: 50px;
+      }
+    }
+
     /* retina */
     @media (-webkit-min-device-pixel-ratio: 2) {
       #portrait #me {
@@ -99,6 +136,30 @@
   <section id="intro">
     {{ content }}
   </section>
+  
+  <section id="info">
+    <div id="block"><a href="http://github.com/troyswanson/"><span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+      </span></i></a></div>
+    
+
+
+    <div id="block"><a href="http://twitter.com/bla"><span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+      </span></a></div>
+    
+
+
+    <div id="block"><a href="mailto:gerphimum@gmail.com">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+      </span></a>
+      </div>
+  </section>
+
   <section id="posts">
     <h2>Latest Posts</h2>
     <dl>
