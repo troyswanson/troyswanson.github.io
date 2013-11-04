@@ -1,7 +1,5 @@
 language: ruby
 rvm:
-  - 1.9.3 #what GitHub Pages uses
-install:
-  - bundle install #install gemfile stuff
+  - 1.9.3
 script:
-  - jekyll build --trace #build site using jekyll
+  - rake test
