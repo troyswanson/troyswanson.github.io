@@ -1,4 +1,5 @@
 /* UNIVERSAL styles */
+
 body,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
@@ -6,6 +7,7 @@ body,
   font-weight: 100;
   font-size: 14px;
 }
+
 /* block elements */
 section {
   margin: 4em 0;
@@ -22,11 +24,7 @@ h1 {
 h2 {
   color: #94ADD6;
 }
-p {
-  opacity: 0.75;
-  margin: 0;
-}
-ul li {
+p, li {
   opacity: 0.75;
 }
 dl {
@@ -42,6 +40,7 @@ dl dd {
   margin-left: 90px;
   margin-bottom: 1em;
 }
+
 /* inline elements */
 a {
   color: #A1B373;
@@ -60,6 +59,7 @@ time {
   font-size: 0.8em;
   opacity: 0.5;
 }
+
 /* header */
 header {
   padding: 2.25em 0;
@@ -91,6 +91,7 @@ header nav ul li {
 header nav ul li:last-child {
   margin-bottom: 0;
 }
+
 /* responsive */
 @media (max-width: 767px) {
   section {
@@ -126,6 +127,7 @@ header nav ul li:last-child {
   dl dd { margin-left: 75px; }
 }
 
+
 /* HOME styles */
 #portrait {
   margin-left: auto;
@@ -148,6 +150,7 @@ header nav ul li:last-child {
 }
 #intro p {
   font-size: 2em;
+  margin: 0;
 }
 #posts {
   width: 80%;
@@ -174,6 +177,7 @@ header nav ul li:last-child {
     font-size: 0.65em;
   }
 }
+
 
 /* POST styles */
 article {
