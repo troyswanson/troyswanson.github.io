@@ -1,8 +1,6 @@
 ---
-
 layout: post
 title: Close to Production
-
 ---
 
 This site uses [Jekyll](http://jekyllrb.com) and is hosted by the gracious folks at GitHub via their awesome [GitHub Pages](http://pages.github.com/) service. It's a pretty sweet setup; create a repository that matches a certain pattern and start pushing commits to it. GitHub automatically notices any push made to the repo, rebuilds the site using the `jekyll build` command, and then serves it up.

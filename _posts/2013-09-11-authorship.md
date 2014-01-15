@@ -1,7 +1,5 @@
 ---
-
 layout: post
-
 ---
 
 One thing I love about Google is how they are constantly moving forward with new stuff. They rarely ship monumentally groundbreaking stuff that no one expected. Instead, they try a little bit of everything and then either iterate, drop it, or merge it into something else. There are a ton of examples of this from Google, but the one that interests me the most right now is authorship.

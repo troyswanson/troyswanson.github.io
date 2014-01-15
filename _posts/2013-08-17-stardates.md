@@ -1,7 +1,5 @@
 ---
-
 layout: post
-
 ---
 
 Over the past few years, I've been re-watching every episode of Star Trek again. Almost all of it is brand new content for me, though. When The Next Generation first aired, I was only [13 months](http://www.wolframalpha.com/input/?i=aug+4+1986+-+premiere+of+star+trek+the+next+generation) old. Even when I was a kid, I remember being intrigued by the way the stardate system worked. So, being the curious guy that I am, I tried to decipher it so I could better understand the time references used in the show. Surprisingly, I wasn't able to find a lot of definitive information around how the stardate system works.
