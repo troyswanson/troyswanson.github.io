@@ -1,9 +1,6 @@
 ---
-
 layout: post
-
 title: GitHub as a CMS
-
 ---
 
 This post was created and published entirely using GitHub. And it was easy. I'm using [Jekyll](http://jekyllrb.com) and [GitHub Pages](http://pages.github.com/), but you can set up this process to work with basically any flat file content management system. Also, this process isn't specific to blog posts. It can work for any kind of flat file content that your site uses.
