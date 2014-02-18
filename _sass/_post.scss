@@ -1,0 +1,50 @@
+/* POST styles */
+article {
+  padding: 1.5em 8em 4em 2em;
+  font-size: 1.2em;
+  
+  h1 {
+    font-size: 3em;
+    margin: 0;
+    text-indent: -0.1em;
+  }
+  p {
+    line-height: 1.7em;
+    
+    code {
+      font-family: "source-code-pro", monospace;
+      font-weight: 300;
+      font-size: 0.9em;
+      background-color: #f6f6f6;
+      border: 1px solid #eee;
+      padding: 0 0.25em;
+      margin: 0.1em;
+      border-radius: 0.3em;
+    }
+  }
+  ul {
+    &.meta {
+      margin: 0 0 3em;
+      padding: 0;
+      list-style: none;
+      
+      li {
+        margin-right: 0.5em;
+        float: left;
+        
+        &.pubdate { opacity: 0.5;
+        }
+      }
+    }
+  }
+  .body { clear: left; }
+}
+
+/* responsive */
+@media (max-width: 767px) {
+  article {
+    padding: 1em;
+    
+    h1 { font-size: 2.5em; }
+  }
+}
