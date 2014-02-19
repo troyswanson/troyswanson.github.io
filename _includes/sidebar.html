@@ -4,10 +4,8 @@
         <h2>I build websites.</h2>
         <nav>
           <ul>
-            {% for p in site.pages %}
-            <li><a href="{{ p.url }}">{% if p.url == '/' %}← {% endif %}{{ p.nav_title }}</a></li>
-            {% endfor %}
+            <li><a href="/">← Home</a></li>
           </ul>
-          <div style="clear:left"></div>
+          <div style="clear:left;"></div>
         </nav>
       </header>
