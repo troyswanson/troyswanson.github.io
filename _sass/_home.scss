@@ -22,6 +22,11 @@
   p {
     font-size: 2em;
     margin: 0;
+    
+    em {
+      font-style: normal;
+      font-weight: 400;
+    }
   }
 }
 #posts {
@@ -39,7 +44,7 @@
     width: 2em;
     height: 2em;
     margin: 0 auto;
-    background-color: #A1B373;
+    background-color: $link-color;
     color: #fff;
     font-size: 1.75em;
     line-height: 2em;
@@ -47,7 +52,7 @@
     border-radius: 50%;
     
     &:hover {
-      background-color: #B6CC79;
+      background-color: darken($link-color, 10%);
     }
   }
 }

@@ -6,6 +6,7 @@ body,
   font-family: "adelle-sans", sans-serif;
   font-weight: 100;
   font-size: 14px;
+  color: $text-color;
 }
 
 /* block elements */
@@ -17,15 +18,12 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 100;
 }
 h1 {
-  color: #6A85B3;
+  color: $header-color;
   font-size: 3em;
   margin: 0;
 }
 h2 {
-  color: #94ADD6;
-}
-p, li {
-  opacity: 0.75;
+  color: lighten($header-color, 15%);
 }
 dl {
   margin: 0;
@@ -44,22 +42,18 @@ dl {
 
 /* inline elements */
 a {
-  color: #A1B373;
+  color: $link-color;
   text-decoration: none;
   transition: color 0.1s;
   -webkit-transition: color 0.1s;
   
   &:hover {
-    color: #B6CC79;
+    color: darken($link-color, 10%);
   }
-}
-em {
-  font-style: normal;
-  font-weight: 400;
 }
 time {
   font-size: 0.8em;
-  opacity: 0.5;
+  color: lighten($text-color, 55%);
 }
 
 /* header */
@@ -71,13 +65,12 @@ header {
   h1 {
     font-size: 2em;
     margin: 0;
-    color: #000;
+    color: $text-color;
   }
   h2 {
     font-size: 1.5em;
     margin: 0;
-    opacity: 0.5;
-    color: #000;
+    color: lighten($text-color, 45%);
   }
   nav {
     margin-top: 2em;
@@ -104,7 +97,7 @@ header {
   header {
     padding: 1em;
     width: auto;
-    border-bottom: 1px solid #B6CC79;
+    border-bottom: 1px solid $link-color;
     
     h1 {
       font-size: 1.7em;
