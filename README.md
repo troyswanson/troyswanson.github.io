@@ -1,7 +1,7 @@
 # troyswanson.github.io
 
-[![Build Status](https://travis-ci.org/troyswanson/troyswanson.github.io.png?branch=master)](https://travis-ci.org/troyswanson/troyswanson.github.io)
-[![Dependency Status](https://gemnasium.com/troyswanson/troyswanson.github.io.png)](https://gemnasium.com/troyswanson/troyswanson.github.io)
+[![Build Status](https://travis-ci.org/troyswanson/troyswanson.github.io.svg?branch=master](https://travis-ci.org/troyswanson/troyswanson.github.io)
+[![Dependency Status](https://gemnasium.com/troyswanson/troyswanson.github.io.svg)](https://gemnasium.com/troyswanson/troyswanson.github.io)
 
 Hey, this is Troy Swanson's personal site/blog using GitHub Pages and Jekyll
 
