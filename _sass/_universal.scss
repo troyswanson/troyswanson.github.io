@@ -1,0 +1,128 @@
+/* UNIVERSAL styles */
+
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+  font-family: "adelle-sans", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  color: $text-color;
+}
+
+/* block elements */
+section {
+  margin: 4em 0;
+  transition: margin .5s, font-size .5s;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+}
+h1 {
+  color: $header-color;
+  font-size: 3em;
+  margin: 0;
+}
+h2 {
+  color: lighten($header-color, 15%);
+}
+dl {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25em;
+  
+  dt {
+    float: left;
+    clear: left;
+  }
+  dd {
+    margin-left: 90px;
+    margin-bottom: 1em;
+  }
+}
+
+/* inline elements */
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color 0.1s;
+  -webkit-transition: color 0.1s;
+  
+  &:hover {
+    color: darken($link-color, 10%);
+  }
+}
+time {
+  font-size: 0.8em;
+  color: lighten($text-color, 55%);
+}
+
+/* header */
+header {
+  padding: 2.25em 0;
+  width: 80%;
+  margin: 0 auto;
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+    color: $text-color;
+  }
+  h2 {
+    font-size: 1.5em;
+    margin: 0;
+    color: lighten($text-color, 45%);
+  }
+  nav {
+    margin-top: 2em;
+    
+    ul {
+      padding: 0;
+      list-style: none;
+      
+      li {
+        margin-bottom: 0.5em;
+        font-size: 1.25em;
+        
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+/* responsive */
+@media (max-width: 767px) {
+  section { margin: 2em 0; }
+  header {
+    padding: 1em;
+    width: auto;
+    border-bottom: 1px solid $link-color;
+    
+    h1 {
+      font-size: 1.7em;
+      display: inline-block;
+      margin-right: 0.25em;
+    }
+    h2 {
+      font-size: 1.3em;
+      display: inline-block;
+    }
+    nav {
+      margin: 0.75em 0 0;
+      
+      ul {
+        margin :0;
+        
+        li {
+          margin: 0;
+          float: left;
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+  h2 { font-size: 1.25em; }
+  dl { font-size: 1.1em; }
+  dl dd { margin-left: 75px; }
+}
