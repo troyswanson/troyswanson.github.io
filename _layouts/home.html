@@ -10,7 +10,7 @@
 </head>
 <body>
   <section id="portrait">
-    <div id="me"><img src="/img/portrait.png" alt="Troy Swanson"></div>
+    <div id="me"><img src="{{ site.github.url }}/img/portrait.png" alt="Troy Swanson"></div>
   </section>
   <section id="intro">
     {{ content }}
@@ -33,7 +33,7 @@
     <dl>
       {% for post in site.posts %}
       <dt><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></dt>
-      <dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
+      <dd><a href="{{ site.github.url}}{{ post.url }}">{{ post.title }}</a></dd>
       {% endfor %}
     </dl>
   </section>
