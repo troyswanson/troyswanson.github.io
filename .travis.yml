@@ -3,3 +3,4 @@ rvm:
   - 2.0.0
 script:
   - jekyll build --trace
+  - htmlproof ./_site
