@@ -14,5 +14,3 @@ As video and audio quality increase, the need for more and more bandwidth increa
 This is the very nature of Net Neutrality, and why this deal with HBO is potentially very dangerous for consumers. ISPs will be able to kink the connection between services that haven't "partnered" with them and their customers, strong arming those services until they give up control and pay up.
 
 ISPs would love to be the broker for all online content that you, the consumer, want. Their ideal world is one where you buy all of the content packages through them, just like how cable television works now. The difference this time is that it would encompass every aspect of your digital life: social networks, gaming, backups, video streaming. Imagine a world where, if you wanted any kind of online account, you had to go through TWC or Comcast in order to get it.
-
-That's horrifying.
