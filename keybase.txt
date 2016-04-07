@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/gerphimum
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://troy.im
+  * I am gerphimum (https://keybase.io/gerphimum) on keybase.
+  * I have a public key ASAnizOpA0-O8DbgVWC42ITx8YcFsS3PKQkcU_HHb0SiAAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01019f588c87fc0458366530587d1641001d8acc86d3b7db39ac5f7a4d08540e859f0a",
+            "host": "keybase.io",
+            "kid": "0120278b33a9034f8ef036e05560b8d884f1f18705b12dcf29091c53f1c76f44a2000a",
+            "uid": "c26c36048c46f5010c02cc0f0e578319",
+            "username": "gerphimum"
+        },
+        "service": {
+            "hostname": "troy.im",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.13"
+    },
+    "ctime": 1460046066,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1460045885,
+        "hash": "7c233fa7cb47afe547dd9c32c236170ac390cf165794ca604ae294e5f17327f945ab67280db06f8672e360f25bf038f39568f488a20a9d9c9e5cda3ca5064c1a",
+        "seqno": 434446
+    },
+    "prev": "dd07e48b00dd4c54caaf6b9c78fb9b0132ddaf1c6b40c0001c25d052c2a82eee",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJ4szqQNPjvA24FVguNiE8fGHBbEtzykJHFPxx29EogAKp3BheWxvYWTFAu97ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxOWY1ODhjODdmYzA0NTgzNjY1MzA1ODdkMTY0MTAwMWQ4YWNjODZkM2I3ZGIzOWFjNWY3YTRkMDg1NDBlODU5ZjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMjc4YjMzYTkwMzRmOGVmMDM2ZTA1NTYwYjhkODg0ZjFmMTg3MDViMTJkY2YyOTA5MWM1M2YxYzc2ZjQ0YTIwMDBhIiwidWlkIjoiYzI2YzM2MDQ4YzQ2ZjUwMTBjMDJjYzBmMGU1NzgzMTkiLCJ1c2VybmFtZSI6ImdlcnBoaW11bSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoidHJveS5pbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTMifSwiY3RpbWUiOjE0NjAwNDYwNjYsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ2MDA0NTg4NSwiaGFzaCI6IjdjMjMzZmE3Y2I0N2FmZTU0N2RkOWMzMmMyMzYxNzBhYzM5MGNmMTY1Nzk0Y2E2MDRhZTI5NGU1ZjE3MzI3Zjk0NWFiNjcyODBkYjA2Zjg2NzJlMzYwZjI1YmYwMzhmMzk1NjhmNDg4YTIwYTlkOWM5ZTVjZGEzY2E1MDY0YzFhIiwic2Vxbm8iOjQzNDQ0Nn0sInByZXYiOiJkZDA3ZTQ4YjAwZGQ0YzU0Y2FhZjZiOWM3OGZiOWIwMTMyZGRhZjFjNmI0MGMwMDAxYzI1ZDA1MmMyYTgyZWVlIiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAz5mn0632dDoORihUD0oxKIpoPOeJd38mvGRh2wGW58A7j4Bo1ZOqGry+StA3yDklnjnpSaNqi1mKscOJiiXtAahzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gerphimum
+
+==================================================================
