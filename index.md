@@ -5,4 +5,4 @@ title: Hi, I'm Troy Swanson
 
 # Hi, I'm Troy Swanson
 
-I'm a *web developer* at ObjectRocket.
+I'm a *software engineer* at [Tuple Labs](http://wearetuple.co).
