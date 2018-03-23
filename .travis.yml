@@ -1,6 +1,7 @@
 language: ruby
 rvm:
-  - 2.0.0
+  - 2.4.0
 script:
-  - jekyll build --trace
-  - htmlproof ./_site
+  - bundle exec github-pages health-check
+  - bundle exec jekyll build
+  - bundle exec htmlproofer --assume-extension ./_site

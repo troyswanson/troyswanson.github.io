@@ -1,5 +1,11 @@
-permalink: pretty
+title: Hi, I'm Troy Swanson
+description: The personal website of Troy Swanson
+url: http://troyswanson.me
 
-markdown: redcarpet
-redcarpet:
-  extensions: [smart]
+plugins:
+  - jekyll-seo-tag
+
+compress_html:
+  startings: all
+  endings: all
+  comments: all
