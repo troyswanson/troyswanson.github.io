@@ -1,11 +1,26 @@
 ---
 ---
 
-$text-color:   #2f2f2f;
-$link-color:   #A1B373;
-$header-color: #6A85B3;
+body {
+  font-family: "Arial";
+  font-size: 14px;
+}
 
-@import 'universal';
-@import 'home';
-@import 'post';
-@import 'pygments';
+#container {
+  text-align: center;
+
+  img {
+    border-radius: 5%;
+    max-width: 100%;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin: auto 0.5em;
+    }
+  }
+}
