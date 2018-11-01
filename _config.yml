@@ -2,6 +2,8 @@ title: Hi, I'm Troy Swanson
 description: The personal website of Troy Swanson
 url: http://troyswanson.me
 
+exclude: ["LICENSE.md", "README.md", "Dockerfile", "Gemfile", "Gemfile.lock"]
+
 plugins:
   - jekyll-seo-tag
 
